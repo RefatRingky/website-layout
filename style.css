@@ -93,3 +93,43 @@ nav{
         background-color: rgb(70, 170, 61);
     }
 }
+.photo-frame{
+    width: 300px;
+    height: 200px;
+    border: 1px solid goldenrod;
+    border-radius: 10px;
+    position: relative;
+    margin: 15px;
+    overflow: hidden;
+}
+.photo img{
+    width: 100%;
+    border-radius: 10px;
+}
+.photo-detail {
+    position: absolute;
+    width: 300px;
+    bottom: 0;
+    display: none;   
+}
+.photo-detail h3{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.photo-detail p{
+   color: white;
+}
+.photo-album{
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo-frame:hover .photo-detail{
+    /* display: block; */
+    background-color: rgba(218, 165, 32, 0.26);
+}
+
+.photo-frame:hover .photo{
+    transform: scale(1.5);
+    transition: transform 2s ease-in-out;
+} 
