@@ -1,0 +1,43 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border: 1px solid black;
+    font-size: 3em;
+}
+.container{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    border: 1px dashed seagreen;
+    align-items: center;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+.login-form button{
+  background-color: orange;
+  color: white;
+  font-weight: 20px;
+  border: 0px;
+  padding: 5px;
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+    border-radius: 2px;
+
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+    color: maroon;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
