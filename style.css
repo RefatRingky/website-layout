@@ -69,3 +69,27 @@ nav{
 .day{
     font-size: 2em;
 }
+.menu-container{
+    display: flex;
+}
+.food{
+    border: 2px solid rgb(203, 55, 216);
+    width: 300px;
+}
+.food img{
+    width: 75%;
+}
+@media (max-width: 700px) {
+    .food{
+        background-color: orange;
+        margin-bottom: 20px;
+    }
+    .menu-container{
+        flex-direction: column;
+    }
+}
+@media (min-width: 900px) {
+    .food{
+        background-color: rgb(70, 170, 61);
+    }
+}
